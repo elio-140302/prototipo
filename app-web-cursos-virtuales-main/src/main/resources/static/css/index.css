@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+	font-family: sans-serif;
+	color: #333;
+	font-size: 16px
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+nav-item {
+	color: black;
+}
+.section-1{
+	background-color: #f8f8f8;	
+}
+.section-1 .h1-tittle{
+	font-family: Inter, sans-serif;
+	font-weight: 800;
+}
+.section-1 .block{
+    display: block;
+}
+.section-1 .span-resalt{
+	color: orange;
+}
+.section-1 .custom-img{
+	width: 95%;
+	height: auto;
+}
+
+.container-fluid {
+	padding: 20px;
+}
+
+.section-2 .description { 
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* Número de líneas que deseas mostrar */
+    max-height: 3.5rem; /* Altura máxima permitida */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .8rem;
+}
+
+
+/* .description { */
+/*     overflow: hidden; */
+/*     text-overflow: ellipsis; */
+/*     white-space: nowrap; */
+/* } */
+
+/* Estilos de la sección principal */
+h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+p {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+}
+
+.btn-primary {
+	background-color: #ff0000;
+	border-color: #ff0000;
+}
+
+/* Estilos de la sección de cursos */
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 2rem;
+}
+
+.form-row {
+	align-items: flex-end;
+}
+
+.custom-select {
+	width: 100%;
+}
+
+/* Estilos de los cards de cursos */
+.card {
+	width: 300px;
+	border: none;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+	height: 150px;
+	object-fit: cover;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-bottom: 1rem;
+}
+
+.card-text {
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+
+/* Estilos del pie de página */
+footer {
+	background-color: #f8f8f8;
+}
